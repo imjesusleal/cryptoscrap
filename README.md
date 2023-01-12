@@ -68,3 +68,6 @@ python3 main.py #linux
 
 ### Result
 And in the end you are going to be having an image like this one.
+![screenshot](https://user-images.githubusercontent.com/98983618/212172965-9bde427d-8827-4fbf-bcc5-898db918f464.png)
+
+Voilá. 

@@ -11,7 +11,7 @@ def main():
 	response = requests.get(url)
 	doc = response.text
 	sp = bs(doc, 'html.parser')
-	cryptos = sp.find(class_='css-72ldqd')
+	cryptos = sp.find(class_='css-1vuj9rf')
 
 	name = [x.text for x in cryptos.find_all(class_='css-1ap5wc6')]
 	price = [x.text for x in cryptos.find_all(class_='css-ydcgk2')]
